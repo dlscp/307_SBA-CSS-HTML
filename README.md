@@ -4,6 +4,9 @@
 
 ---
 
+## Dev Notes -
+Everything looks good to go now. I didn't use all photos in assets. It doesn't look exactly like my wire frame but generally lines up. I used bootstrap for easier styling. I have two forms for the sign up and sign in on the account page. I have plenty of content. I did in line stlying in some of my images and videos, I also moved some of the video styling into the landing page html for internal styling. I added a dropdown menu in the signup form. I added a last minute table with the pricing plan option even if it isn't function button wise. 
+
 ## **Introduction**
 This test has a total duration of **three (3) days**. This is a take-home assessment.  
 Your instructor will designate at least half a day for you to work on this assessment in class. If you need more time, you have three additional days (including weekends and holidays) to work on your assessment. This assessment will be due at **5:00 PM on the third day** after it was assigned to your cohort.

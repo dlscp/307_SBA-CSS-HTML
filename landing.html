@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>WhiskerWatch-Landing</title>
+    <style>
+        .video-container {
+            width: 100%;
+            height: 462px;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!-- ===== Header ===== -->
+        <header class="p-1 text-center row">
+
+            <div class="brandbar col-2 align-items-start">
+                <img src="assets/Designer.png" alt="WhiskerWatch logo" width="90" height="90" class="logo">
+            </div>
+
+            <div class="col d-flex justify-content-center align-items-center">
+                <h1 class="">WhiskerWatch</h1>
+            </div>
+
+            <div class="navtabs__nav col-2">
+                <nav class="nav flex-column">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="account.html">Sign Up</a>
+                    <a class="nav-link" href="account.html">Sign In</a>
+                    <a class="nav-link" href="landing.html">Explore</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ===== Main ===== -->
+        <div class="container mt-4">
+            <div class="p-3 mb-4 bg-light rounded-3 text-center">
+                <p class="lead text-center">WhiskerWatch is a nature-first streaming platform engineered for feline
+                    senses. Real outdoor footage, gentle motion, natural soundscapes, and zero human nonsense—so every
+                    screen becomes a window worth guarding.</p>
+            </div>
+            <div class="container my-5">
+                <h1 class="text-center mb-4">What will you watch today?</h1>
+                <div class="row g-4">
+                    <!-- Large picture of cat watching tv -->
+                    <div class="col-md-8">
+                        <div class="bento-item">
+                            <img src="assets\pexels-sam-lion-6001385.jpg" class="" alt="Nature scene" />
+                        </div>
+                    </div>
+                    <!-- One tall item -->
+                    <div class="col-md-4">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="bento-item video-container">
+                                    <video autoplay muted loop controls>
+                                        <source src="assets/13404968_1080_1920_30fps.mp4" type="video/mp4">
+                                        Your browser does not support the video tag. Koi fish.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Medium item -->
+                    <div class="col-md-4">
+                        <div class="bento-item text-dark">
+                            <video autoplay muted loop controls>
+                                <source src="assets/14487383_3840_2160_60fps.mp4" type="video/mp4">
+                                Your browser does not support the video tag. Chinchilla.
+                            </video>
+                        </div>
+                    </div>
+                    <!-- Medium item -->
+                    <div class="col-md-4">
+                        <div class="bento-item text-dark">
+                            <video autoplay muted loop controls>
+                                <source src="assets/14687365_3840_2160_60fps.mp4" type="video/mp4">
+                                Your browser does not support the video tag. Black squirrel.
+                            </video>
+                        </div>
+                    </div>
+                    <!-- Medium item -->
+                    <div class="col-md-4">
+                        <div class="bento-item text-dark">
+                            <video autoplay muted loop controls>
+                                <source src="assets/7796507-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                                Your browser does not support the video tag. Black squirrel.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popper + Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
